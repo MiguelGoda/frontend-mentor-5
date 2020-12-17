@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --header-fonts: 'Open Sans', sans-serif;
+    --body-fonts: 'Poppins', sans-serif;
+    --violet: hsl(257, 40%, 49%);
+    --soft-Magenta: hsl(300, 69%, 71%);
+}
+body{
+    background-color: var(--violet);
+    min-height: 100vh;
+    min-width: auto;
+}
+header{
+    background-image: url(/images/bg-mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.header--iconoPrincipal{
+    text-align: center;
+}
+.icon-logo{
+    width: 5em;
+}
+.imagen-principal{
+    width: 20em;
+
+}

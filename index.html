@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,13 +15,39 @@
   </style>
 </head>
 <body>
+  <header class="header">
+    <figure>
+      <img class="icon-logo" src="./images/logo.svg" alt="Icon-Logo">
+    </figure>
+    <figure class="header--iconoPrincipal">
+      <img class="imagen-principal" src="./images/illustration-mockups.svg" alt="illustration-mockups">
+    </figure>
+    <!-- <div class="imagen-principal">
+    </div> -->
+  </header>
+  <section class="principal">
+    <div class="descripcion">
+      <h1>
+        Build The Community Your Fans Will Love
+      </h1>
+      <p class="parrafo">
+        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+        Create connections with your users as you engage in genuine discussion. 
+      </p>
+      <button>
+        Register
+      </button>
+    </div>
+  </section>
+  <footer>
+    <div class="logos-footer">
+      <ion-icon name="logo-facebook"></ion-icon>
+      <ion-icon name="logo-twitter"></ion-icon>
+      <ion-icon name="logo-instagram"></ion-icon>
+    </div>
+  </footer>
 
-  Build The Community Your Fans Will Love
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
 
   <footer>
     <p class="attribution">
@@ -29,5 +55,6 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
 </html>
