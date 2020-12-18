@@ -5,29 +5,83 @@
     padding: 0;
 }
 :root{
-    --header-fonts: 'Open Sans', sans-serif;
-    --body-fonts: 'Poppins', sans-serif;
+    --body-fonts: 'Open Sans', sans-serif;
+    --header-fonts: 'Poppins', sans-serif;
     --violet: hsl(257, 40%, 49%);
     --soft-Magenta: hsl(300, 69%, 71%);
 }
 body{
+    color:white;
     background-color: var(--violet);
     min-height: 100vh;
     min-width: auto;
+}
+.wrapper {
+    width: calc(100% - 70px);
+    margin: 0 auto 0;
 }
 header{
     background-image: url(/images/bg-mobile.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 20px;
 }
 .header--iconoPrincipal{
     text-align: center;
 }
 .icon-logo{
-    width: 5em;
+    width: 8em;
+    padding-top: 33px;
 }
 .imagen-principal{
-    width: 20em;
+    width: 19em;
+    padding: 41px 0;
+}
+.principal{
+    padding-top: 35px;
 
+}
+.descripcion{
+    text-align: center;
+}
+.descripcion h1{
+    font-family: var(--header-fonts);
+    font-weight: 600;
+    font-size: 26px;
+}
+.descripcion p{
+    font-size: 16px;
+    padding: 20px 0;
+    font-family: var(--body-fonts);
+    font-weight: 400;
+}
+.button{
+    color: var(--violet);
+    padding: 10px;
+    width: 70%;
+    height: 42px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 3px 4px 8px rgba(0, 11, 8, 0.2);
+    cursor: pointer;
+    font-family: var(--header-fonts);
+}
+.footer{
+    text-align: center;
+}
+.logos-footer{
+    padding: 40px 0;
+    width: calc( 100% - 250px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
 }

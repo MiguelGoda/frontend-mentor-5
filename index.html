@@ -11,50 +11,54 @@
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: hsl(228, 20%, 90%); }
   </style>
 </head>
 <body>
+  
   <header class="header">
-    <figure>
-      <img class="icon-logo" src="./images/logo.svg" alt="Icon-Logo">
-    </figure>
-    <figure class="header--iconoPrincipal">
-      <img class="imagen-principal" src="./images/illustration-mockups.svg" alt="illustration-mockups">
-    </figure>
-    <!-- <div class="imagen-principal">
-    </div> -->
+    <div class="wrapper">
+      <figure>
+        <img class="icon-logo" src="./images/logo.svg" alt="Icon-Logo">
+      </figure>
+      <figure class="header--iconoPrincipal">
+        <img class="imagen-principal" src="./images/illustration-mockups.svg" alt="illustration-mockups">
+      </figure>
+    </div>
   </header>
   <section class="principal">
-    <div class="descripcion">
-      <h1>
-        Build The Community Your Fans Will Love
-      </h1>
-      <p class="parrafo">
-        Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-        Create connections with your users as you engage in genuine discussion. 
-      </p>
-      <button>
-        Register
-      </button>
+    <div class="wrapper">
+      <div class="descripcion">
+        <h1>
+          Build The Community Your Fans Will Love
+        </h1>
+        <p class="parrafo">
+          Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion. 
+        </p>
+        <button class="button">
+          Register
+        </button>
+      </div>
     </div>
   </section>
-  <footer>
+  <footer class="footer">
     <div class="logos-footer">
-      <ion-icon name="logo-facebook"></ion-icon>
-      <ion-icon name="logo-twitter"></ion-icon>
-      <ion-icon name="logo-instagram"></ion-icon>
+      <div class="contenedor-icon">
+        <i class="fab fa-facebook-f"></i>
+      </div>
+      <div class="contenedor-icon">
+        <i class="fab fa-twitter"></i>
+      </div>
+      <div class="contenedor-icon">
+        <i class="fab fa-instagram"></i>
+      </div>
     </div>
-  </footer>
-
-
-
-  <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Miguel Angel Goda Molina</a>.
     </p>
   </footer>
-  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  <script src="https://kit.fontawesome.com/6eb294507a.js" crossorigin="anonymous"></script>
 </body>
 </html>
