@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
 
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -57,7 +58,7 @@ header{
 .button{
     color: var(--violet);
     padding: 10px;
-    width: 70%;
+    width: 210px;
     height: 42px;
     border-radius: 50px;
     border: none;
@@ -84,4 +85,12 @@ header{
     height: 30px;
     border: 1px solid white;
     border-radius: 50%;
+}
+@media screen and (min-width: 991px) {
+    .wrapper{
+        width: 1440px;
+    }
+    header{
+        background-image: initial;
+    }
 }
